@@ -15,7 +15,7 @@ namespace MYJ.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Descripción de tu pagina.";
 
             return View();
         }
