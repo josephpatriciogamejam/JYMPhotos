@@ -15,7 +15,7 @@ namespace MYJ.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Descripción de tu pagina.";
+            ViewBag.Message = Resource.UserResources.Titulo;
 
             return View();
         }
